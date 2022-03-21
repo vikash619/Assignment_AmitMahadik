@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:context="http://www.springframework.org/schema/context"
+ xmlns:p="http://www.springframework.org/schema/p"
+ xmlns:c="http://www.springframework.org/schema/c"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd
+ http://www.springframework.org/schema/context
+ http://www.springframework.org/schema/context/spring-context.xsd
+ ">
+ 
+<bean class="com.springCoreAssignment.Question2.Question" name="question">
+	<property name="questionId" value="01" />
+	<property name="question" value="Benifits of Collection framework" />
+	<property name="answer1">
+		<list>
+			<value> Saves time</value>
+			<value> Saves lines of code</value>
+			<value> Have pre build functions</value>
+		</list>
+	</property> 
+	
+	<property name="answer2">
+		<set>
+			<value> Saves time</value>
+			<value> Saves lines of code</value>
+			<value> Have pre build functions</value>
+		</set>
+	</property> 
+	
+	<property name="answer3">
+		<map>
+			<entry key="1" value="Saves time" />
+			<entry key="2" value="Saves lines of code" />
+			<entry key="3" value="Have pre build functions" />
+		</map>
+	</property> 
+</bean>
+ </beans>
