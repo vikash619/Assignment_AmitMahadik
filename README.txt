@@ -1,1 +1,1 @@
-// all spring assignment
+// all assignments
